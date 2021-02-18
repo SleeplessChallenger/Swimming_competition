@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Swimming_competition</title>
+</head>
+
+<body>
+
+	<h2>Welcome to Fukuoka swimming competition!</h2>
+	<hr>
+		<section>
+			<form action="/result">
+				<h3>Please, follow inputs to be eligible</h3>
+				<div>
+					<label for='first_name'>First Name</label>
+					<input type="text" name="first_name" id='first_name' placeholder="input your name" required>
+
+					<label for='second_name'>Second Name</label>
+					<input type="text" name="second_name" id='second_name' placeholder="input your surname" required>
+				</div>
+
+				<p>
+					<b>Select your style and distance</b>
+				</p>
+
+				<section>
+					<p>
+					<label for='1'><i>Butterfly</i></label>
+					<input type="radio" name="style" id='1' value='Butterfly'>
+					<label for='2'><i>Breaststroke</i></label>
+					<input type="radio" name="style" id='2' value='Breaststroke'>
+					<label for='3'><i>Back</i></label>
+					<input type="radio" name="style" id='3' value='Back'>
+					<label for='4'><i>Freestyle</i></label>
+					<input type="radio" name="style" id='4' value='Freestyle'>
+					</p>
+
+					<p>
+						<label for='distance'><i>Choose distance</i></label>
+						<select id='distance' name='distance_'>
+							<option value=''>Here are types</option>
+							<option value='50'>50 meters</option>
+							<option value='100'>100 meters</option>
+							<option value='150'>150 meters</option>
+						</select>
+					</p>
+				</section>
+
+				<p>
+					<b>Final steps!</b>
+				</p>
+
+				<section>
+					<label for='email'>Email</label>
+					<input type="email" name="mail" placeholder="enter your email" id="email" required>
+					<label for='password_'>Password</label>
+					<input type="password" name="password" id="password_" minlength="5" maxlength="25" required>
+				</section>
+
+				<p>
+					<b>Any comments?</b>
+				</p>
+
+				<section>
+					<label for='txt'>Type in here</label><br>
+					<textarea id='txt' placeholder="you can type here" cols="8" rows="3" name="suggestions"></textarea>
+				</section>
+
+				<div>
+					<img src="phelps.jpg" alt="Swimmer" width="150">
+				</div>
+
+				<p>
+					<button type="submit">Register!</button>
+				</p>
+
+				<p>
+					<b>If you're interested in background of the competition</b>
+					<ol>
+						<li><a href="Further_reading.html">Concept</a></li>
+						<li><a href="Mascots.html">Mascots</a></li>
+					</ol>
+				</p>
+
+			</form>
+		</section>
+
+</body>
+</html>
