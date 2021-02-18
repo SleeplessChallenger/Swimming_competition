@@ -5,7 +5,7 @@ Built with html it comprises multiple interrelated pages where pertinent data ca
 
 Main html files are Swimming_registration[1], Further_reading[2], Mascots[3]
 
-1. It is starting page where registration data should be input (in <form> </form>)
+1. It is starting page where registration data should be input (in `<form> </form>`)
 It has links to further pages
 
 2. On this page the main concepts are written and it links to mascots
